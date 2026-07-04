@@ -11,25 +11,36 @@
     "BiRefNet/birefnet-hr-matting_huggingface_inference.ipynb"
   ],
   "environment": "hf-transformers",
-  "environment_path": "envs/hf-transformers",
+  "environment_path": "BiRefNet",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
     "torchvision",
     "transformers",
     "accelerate",
+    "einops",
+    "ipykernel",
+    "jupyter",
+    "kornia",
     "pillow",
     "matplotlib",
     "numpy",
-    "requests"
+    "opencv-python",
+    "requests",
+    "safetensors",
+    "timm"
   ],
   "imports": [
     "PIL",
+    "cv2",
+    "einops",
+    "kornia",
     "matplotlib",
+    "numpy",
     "torch",
     "torchvision",
     "transformers"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
