@@ -1,0 +1,23 @@
+{
+  "model": "DINOv3",
+  "category": "classification-representation",
+  "tasks": [
+    "image-features",
+    "representation-learning"
+  ],
+  "notebook": "DINOv3/dinov3_inference.ipynb",
+  "notebooks": [
+    "DINOv3/dinov3_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "torch",
+    "torchvision"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

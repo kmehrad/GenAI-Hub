@@ -1,0 +1,24 @@
+{
+  "model": "LLaMA2",
+  "category": "llm",
+  "tasks": [
+    "text-generation",
+    "chat"
+  ],
+  "notebook": "LLaMA2/llama2_inference.ipynb",
+  "notebooks": [
+    "LLaMA2/llama2_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "fire",
+    "llama",
+    "os",
+    "typing"
+  ],
+  "setup_notes": "Requires external Llama model access/download approval.",
+  "test_status": "not-run"
+}

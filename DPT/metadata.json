@@ -1,3 +1,33 @@
 {
-    "tasks": ["depth-estimation"]
+  "model": "DPT",
+  "category": "depth-3d",
+  "tasks": [
+    "depth-estimation"
+  ],
+  "notebook": "DPT/dpt_huggingface_inference.ipynb",
+  "notebooks": [
+    "DPT/dpt_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

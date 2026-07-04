@@ -1,0 +1,19 @@
+{
+  "model": "Ferret",
+  "category": "vlm",
+  "tasks": [
+    "VLM",
+    "grounded-chat"
+  ],
+  "notebook": "Ferret/ferret_inference.ipynb",
+  "notebooks": [
+    "Ferret/ferret_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [],
+  "setup_notes": "Uses a nested project with pinned dependencies and a git Transformers source.",
+  "test_status": "not-run"
+}

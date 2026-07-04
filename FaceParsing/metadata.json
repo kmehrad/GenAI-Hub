@@ -1,0 +1,33 @@
+{
+  "model": "FaceParsing",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "face-parsing"
+  ],
+  "notebook": "FaceParsing/faceparsing_huggingface_inference.ipynb",
+  "notebooks": [
+    "FaceParsing/faceparsing_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

@@ -1,3 +1,34 @@
 {
-    "tasks": ["segmentation", "HR-seg", "DIS"]
+  "model": "BEN2",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "HR-seg",
+    "DIS"
+  ],
+  "notebook": "BEN2/ben2_huggingface_inference.ipynb",
+  "notebooks": [
+    "BEN2/ben2_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "ben2",
+    "matplotlib",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

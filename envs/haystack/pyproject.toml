@@ -1,0 +1,16 @@
+[project]
+name = "genai-hub-haystack"
+version = "0.1.0"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "haystack-ai>=2.0.0",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.1.0",
+    "sentencepiece>=0.2.0",
+    "torch>=2.5.0",
+    "transformers>=4.55.0",
+]
+
+[tool.uv]
+package = false
+

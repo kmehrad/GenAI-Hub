@@ -1,0 +1,31 @@
+{
+  "model": "BART",
+  "category": "llm",
+  "tasks": [
+    "text-generation",
+    "seq2seq"
+  ],
+  "notebook": "BART/bart_huggingface_inference.ipynb",
+  "notebooks": [
+    "BART/bart_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

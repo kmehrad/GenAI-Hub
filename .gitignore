@@ -102,6 +102,8 @@ ipython_config.py
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #uv.lock
+.uv-cache/
+uv-cache/
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
@@ -133,6 +135,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -175,3 +178,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local model caches, checkpoints, and generated notebook execution copies
+reports/*.json
+reports/*.md
+reports/executed/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.gguf
+facebook_sam3/
+*/checkpoints/
+*/outputs/
+*/runs/

@@ -1,0 +1,26 @@
+{
+  "model": "VisionReasoner",
+  "category": "vlm",
+  "tasks": [
+    "VLM",
+    "visual-reasoning"
+  ],
+  "notebook": "VisionReasoner/visionreasoner_inference.ipynb",
+  "notebooks": [
+    "VisionReasoner/visionreasoner_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "models",
+    "os",
+    "sys",
+    "textwrap",
+    "utils"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

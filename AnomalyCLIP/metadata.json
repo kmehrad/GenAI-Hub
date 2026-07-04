@@ -1,0 +1,40 @@
+{
+  "model": "AnomalyCLIP",
+  "category": "anomaly",
+  "tasks": [
+    "anomaly-detection",
+    "zero-shot"
+  ],
+  "notebook": "AnomalyCLIP/anomalyclip_inference.ipynb",
+  "notebooks": [
+    "AnomalyCLIP/anomalyclip_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "AnomalyCLIP_lib",
+    "PIL",
+    "cv2",
+    "dataset",
+    "logger",
+    "loss",
+    "matplotlib",
+    "metrics",
+    "numpy",
+    "os",
+    "prompt_ensemble",
+    "random",
+    "scipy",
+    "sys",
+    "tabulate",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "utils",
+    "visualization"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

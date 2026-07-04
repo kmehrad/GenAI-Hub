@@ -1,0 +1,33 @@
+{
+  "model": "AuraSR",
+  "category": "generation",
+  "tasks": [
+    "super-resolution",
+    "image-generation"
+  ],
+  "notebook": "AuraSR/aurasr_inference.ipynb",
+  "notebooks": [
+    "AuraSR/aurasr_inference.ipynb"
+  ],
+  "environment": "diffusers",
+  "environment_path": "envs/diffusers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "pillow",
+    "matplotlib",
+    "numpy"
+  ],
+  "imports": [
+    "PIL",
+    "aura_sr",
+    "matplotlib"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

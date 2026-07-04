@@ -1,0 +1,32 @@
+{
+  "model": "FLUX",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "diffusion"
+  ],
+  "notebook": "FLUX/flux_huggingface_inference.ipynb",
+  "notebooks": [
+    "FLUX/flux_huggingface_inference.ipynb"
+  ],
+  "environment": "diffusers",
+  "environment_path": "envs/diffusers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "pillow",
+    "matplotlib",
+    "numpy"
+  ],
+  "imports": [
+    "diffusers",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

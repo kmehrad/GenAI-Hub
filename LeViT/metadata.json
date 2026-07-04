@@ -1,0 +1,33 @@
+{
+  "model": "LeViT",
+  "category": "classification-representation",
+  "tasks": [
+    "image-classification"
+  ],
+  "notebook": "LeViT/levit_timm_inference.ipynb",
+  "notebooks": [
+    "LeViT/levit_timm_inference.ipynb"
+  ],
+  "environment": "timm",
+  "environment_path": "envs/timm",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "timm",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "requests",
+    "timm",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

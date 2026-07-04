@@ -1,0 +1,29 @@
+{
+  "model": "CAT-Seg",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "open-vocabulary-segmentation"
+  ],
+  "notebook": "CAT-Seg/catseg_inference.ipynb",
+  "notebooks": [
+    "CAT-Seg/catseg_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "cat_seg",
+    "cv2",
+    "demo",
+    "detectron2",
+    "matplotlib",
+    "numpy",
+    "os",
+    "sys",
+    "torch"
+  ],
+  "setup_notes": "Requires Detectron2 and project-specific open-vocabulary segmentation dependencies.",
+  "test_status": "not-run"
+}

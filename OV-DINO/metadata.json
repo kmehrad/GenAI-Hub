@@ -1,0 +1,28 @@
+{
+  "model": "OV-DINO",
+  "category": "detection",
+  "tasks": [
+    "detection",
+    "open-vocabulary-detection"
+  ],
+  "notebook": "OV-DINO/ovdino_inference.ipynb",
+  "notebooks": [
+    "OV-DINO/ovdino_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "cv2",
+    "detectron2",
+    "detrex",
+    "matplotlib",
+    "numpy",
+    "os",
+    "supervision",
+    "torch"
+  ],
+  "setup_notes": "Requires Detectron2/detrex stack and CUDA-specific Torch pins.",
+  "test_status": "not-run"
+}

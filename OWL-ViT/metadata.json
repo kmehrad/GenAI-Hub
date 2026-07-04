@@ -1,3 +1,37 @@
 {
-    "tasks": ["detection", "ovd"]
+  "model": "OWL-ViT",
+  "category": "detection",
+  "tasks": [
+    "detection",
+    "open-vocabulary-detection"
+  ],
+  "notebook": "OWL-ViT/owlvit_huggingface_inference.ipynb",
+  "notebooks": [
+    "OWL-ViT/owlvit_huggingface_inference.ipynb",
+    "OWL-ViT/owlvit_inference-2.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "os",
+    "supervision",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

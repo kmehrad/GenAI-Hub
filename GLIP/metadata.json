@@ -1,0 +1,19 @@
+{
+  "model": "GLIP",
+  "category": "detection",
+  "tasks": [
+    "detection",
+    "grounding"
+  ],
+  "notebook": "GLIP/glip_inference.ipynb",
+  "notebooks": [
+    "GLIP/glip_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [],
+  "setup_notes": "Notebook documents a Docker image with CUDA 10.2 and PyTorch 1.9; treat as Docker/model-specific unless ported.",
+  "test_status": "not-run"
+}

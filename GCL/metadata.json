@@ -1,0 +1,33 @@
+{
+  "model": "GCL",
+  "category": "retrieval-embedding",
+  "tasks": [
+    "retrieval",
+    "ranking",
+    "contrastive"
+  ],
+  "notebook": "GCL/gcl-e5_huggingface_inference.ipynb",
+  "notebooks": [
+    "GCL/gcl-e5_huggingface_inference.ipynb"
+  ],
+  "environment": "retrieval",
+  "environment_path": "envs/retrieval",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "sentencepiece",
+    "protobuf",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

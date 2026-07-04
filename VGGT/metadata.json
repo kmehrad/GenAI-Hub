@@ -1,3 +1,26 @@
 {
-    "tasks": ["3D"]
+  "model": "VGGT",
+  "category": "depth-3d",
+  "tasks": [
+    "3D",
+    "visual-geometry",
+    "depth-estimation"
+  ],
+  "notebook": "VGGT/vggt_inference.ipynb",
+  "notebooks": [
+    "VGGT/vggt_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "demo_viser",
+    "matplotlib",
+    "sys",
+    "torch",
+    "vggt"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

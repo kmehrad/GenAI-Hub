@@ -1,0 +1,15 @@
+[project]
+name = "genai-hub-tooling"
+version = "0.1.0"
+description = "Repository tooling for GenAI-Hub notebook metadata, README generation, and execution reports."
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.0",
+    "jupyter>=1.1.0",
+    "nbconvert>=7.16.0",
+    "nbformat>=5.10.0",
+]
+
+[tool.uv]
+package = false
+

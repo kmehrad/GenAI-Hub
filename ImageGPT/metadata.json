@@ -1,0 +1,35 @@
+{
+  "model": "ImageGPT",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "pixel-modeling"
+  ],
+  "notebook": "ImageGPT/imagegpt_huggingface_inference.ipynb",
+  "notebooks": [
+    "ImageGPT/imagegpt_huggingface_inference.ipynb"
+  ],
+  "environment": "diffusers",
+  "environment_path": "envs/diffusers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "pillow",
+    "matplotlib",
+    "numpy"
+  ],
+  "imports": [
+    "huggingface_hub",
+    "matplotlib",
+    "numpy",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

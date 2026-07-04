@@ -1,0 +1,24 @@
+{
+  "model": "SAN",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "open-vocabulary-segmentation"
+  ],
+  "notebook": "SAN/san_inference.ipynb",
+  "notebooks": [
+    "SAN/san_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "matplotlib",
+    "os",
+    "predict",
+    "sys"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}
