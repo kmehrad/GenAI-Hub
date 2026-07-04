@@ -1,6 +1,6 @@
 # uv Failed Model Fix Progress
 
-Branch: `fix/birefnet-uv-env`
+Branch: `fix/flava-uv-env`
 
 Source failure list: `reports/notebook_uv_execution_followup.md` `Failed` section.
 
@@ -16,35 +16,35 @@ These failed notebook environments were fixed with model-local uv projects, full
 | `CLIP` | `9fb9317 Fix CLIP uv notebook environment` | `2c2ea2b Add CLIP notebook run instructions` | Pins `transformers>=4.55.0,<5.0.0` because Transformers 5 changed CLIP output behavior. |
 | `DETR` | `3c0ca1e Fix DETR uv notebook environment` | `89063d7 Add DETR notebook run instructions` | Adds `timm` and `supervision`; pins `transformers>=4.55.0,<5.0.0` for notebook-compatible DETR APIs. |
 | `BiRefNet` | `4c68c7c Fix BiRefNet uv notebook environment` | `f53f49f Add BiRefNet notebook run instructions` | Uses local `BiRefNet` Hugging Face remote-code env with `timm`, `kornia`, `einops`, and `opencv-python`. |
+| `FLAVA` | `1d2fc1a Fix FLAVA uv notebook environment` | `909731d Add FLAVA notebook run instructions` | Uses local `FLAVA` retrieval env with `sentencepiece`, `protobuf`, and a Transformers 4.x cap for notebook-compatible FLAVA APIs. |
 
 ## Resume Point
 
-Continue with the remaining entries from the original `Failed (26)` list, skipping the six fixed models above.
+Continue with the remaining entries from the original `Failed (26)` list, skipping the seven fixed models above.
 
-Next model to fix: `FLAVA`.
+Next model to fix: `FLUX`.
 
 Remaining failed models in original order:
 
-1. `FLAVA` - `FLAVA/flava_huggingface_inference.ipynb`
-2. `FLUX` - `FLUX/flux_huggingface_inference.ipynb`
-3. `Gemma3` - `Gemma3/gemma3_huggingface_inference.ipynb`
-4. `GroundingDINO` - `GroundingDINO/groundingdino_huggingface_inference.ipynb`
-5. `ImageGPT` - `ImageGPT/imagegpt_huggingface_inference.ipynb`
-6. `Janus` - `Janus/janus_huggingface_inference.ipynb`
-7. `Mask2Former` - `Mask2Former/mask2former_huggingface_inference.ipynb`
-8. `OWL-ViT` - `OWL-ViT/owlvit_huggingface_inference.ipynb`
-9. `OWL-ViT` - `OWL-ViT/owlvit_inference-2.ipynb`
-10. `OWL-v2` - `OWL-v2/owlv2_huggingface_inference.ipynb`
-11. `OneFormer` - `OneFormer/oneformer_huggingface_inference.ipynb`
-12. `PoolFormer` - `PoolFormer/poolformer_huggingface_inference.ipynb`
-13. `SA2VA` - `SA2VA/sa2va_huggingface_inference.ipynb`
-14. `SAM` - `SAM/sam_huggingface_inference.ipynb`
-15. `SAM-3` - `SAM-3/sam3_inference.ipynb`
-16. `SD2` - `SD2/sd_huggingface_inference.ipynb`
-17. `SmolVLM` - `SmolVLM/smolvlm_huggingface_inference.ipynb`
-18. `UperNet` - `UperNet/upernet_huggingface_inference.ipynb`
-19. `WebSSL` - `WebSSL/webssl_huggingface_inference.ipynb`
-20. `YOLOS4Fashion` - `YOLOS4Fashion/yolos4fashion_huggingface_inference.ipynb`
+1. `FLUX` - `FLUX/flux_huggingface_inference.ipynb`
+2. `Gemma3` - `Gemma3/gemma3_huggingface_inference.ipynb`
+3. `GroundingDINO` - `GroundingDINO/groundingdino_huggingface_inference.ipynb`
+4. `ImageGPT` - `ImageGPT/imagegpt_huggingface_inference.ipynb`
+5. `Janus` - `Janus/janus_huggingface_inference.ipynb`
+6. `Mask2Former` - `Mask2Former/mask2former_huggingface_inference.ipynb`
+7. `OWL-ViT` - `OWL-ViT/owlvit_huggingface_inference.ipynb`
+8. `OWL-ViT` - `OWL-ViT/owlvit_inference-2.ipynb`
+9. `OWL-v2` - `OWL-v2/owlv2_huggingface_inference.ipynb`
+10. `OneFormer` - `OneFormer/oneformer_huggingface_inference.ipynb`
+11. `PoolFormer` - `PoolFormer/poolformer_huggingface_inference.ipynb`
+12. `SA2VA` - `SA2VA/sa2va_huggingface_inference.ipynb`
+13. `SAM` - `SAM/sam_huggingface_inference.ipynb`
+14. `SAM-3` - `SAM-3/sam3_inference.ipynb`
+15. `SD2` - `SD2/sd_huggingface_inference.ipynb`
+16. `SmolVLM` - `SmolVLM/smolvlm_huggingface_inference.ipynb`
+17. `UperNet` - `UperNet/upernet_huggingface_inference.ipynb`
+18. `WebSSL` - `WebSSL/webssl_huggingface_inference.ipynb`
+19. `YOLOS4Fashion` - `YOLOS4Fashion/yolos4fashion_huggingface_inference.ipynb`
 
 ## Workflow to Continue
 

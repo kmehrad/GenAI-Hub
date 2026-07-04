@@ -11,7 +11,7 @@
     "FLAVA/flava_huggingface_inference.ipynb"
   ],
   "environment": "retrieval",
-  "environment_path": "envs/retrieval",
+  "environment_path": "FLAVA",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
@@ -19,6 +19,8 @@
     "transformers",
     "sentencepiece",
     "protobuf",
+    "ipykernel",
+    "jupyter",
     "pillow",
     "matplotlib",
     "numpy",
@@ -30,5 +32,5 @@
     "transformers"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
