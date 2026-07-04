@@ -345,7 +345,6 @@ uv run python -m ipykernel install --user --name genai-hf-transformers
 
 ### Testing Status
 
-No notebook execution report has been generated yet.
 
 Notebook execution results are written to `reports/notebook_uv_execution.json` by `tools/execute_notebooks.py`. Source notebook outputs are preserved unless they are explicitly inspected and proven safe to remove.
 
