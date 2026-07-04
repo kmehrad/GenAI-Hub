@@ -1,0 +1,24 @@
+{
+  "model": "FineGrain",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "box-prompted-segmentation"
+  ],
+  "notebook": "FineGrain/finegrainBoxSeg_inference.ipynb",
+  "notebooks": [
+    "FineGrain/finegrainBoxSeg_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "refiners"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "BERT-deepset",
+  "category": "llm",
+  "tasks": [
+    "question-answering"
+  ],
+  "notebook": "BERT-deepset/bert-deepset_haystack_inference.ipynb",
+  "notebooks": [
+    "BERT-deepset/bert-deepset_haystack_inference.ipynb"
+  ],
+  "environment": "haystack",
+  "environment_path": "envs/haystack",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "haystack-ai",
+    "transformers[torch,sentencepiece]"
+  ],
+  "imports": [
+    "haystack"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

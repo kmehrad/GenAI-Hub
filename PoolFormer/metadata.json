@@ -1,0 +1,34 @@
+{
+  "model": "PoolFormer",
+  "category": "classification-representation",
+  "tasks": [
+    "image-classification",
+    "image-features"
+  ],
+  "notebook": "PoolFormer/poolformer_huggingface_inference.ipynb",
+  "notebooks": [
+    "PoolFormer/poolformer_huggingface_inference.ipynb"
+  ],
+  "environment": "timm",
+  "environment_path": "envs/timm",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "timm",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "os",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

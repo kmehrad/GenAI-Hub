@@ -1,3 +1,25 @@
 {
-    "tasks": ["segmentation"]
+  "model": "SAM-HQ",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "high-quality-segmentation"
+  ],
+  "notebook": "SAM-HQ/samhq_inference.ipynb",
+  "notebooks": [
+    "SAM-HQ/samhq_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "segment_anything_hq",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

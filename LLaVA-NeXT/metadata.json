@@ -1,0 +1,33 @@
+{
+  "model": "LLaVA-NeXT",
+  "category": "vlm",
+  "tasks": [
+    "VLM",
+    "VQA"
+  ],
+  "notebook": "LLaVA-NeXT/llavanext_huggingface_inference.ipynb",
+  "notebooks": [
+    "LLaVA-NeXT/llavanext_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "textwrap",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

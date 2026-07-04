@@ -1,0 +1,34 @@
+{
+  "model": "FLAVA",
+  "category": "retrieval-embedding",
+  "tasks": [
+    "multimodal",
+    "retrieval",
+    "image-text"
+  ],
+  "notebook": "FLAVA/flava_huggingface_inference.ipynb",
+  "notebooks": [
+    "FLAVA/flava_huggingface_inference.ipynb"
+  ],
+  "environment": "retrieval",
+  "environment_path": "envs/retrieval",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "sentencepiece",
+    "protobuf",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

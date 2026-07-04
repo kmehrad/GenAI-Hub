@@ -1,0 +1,35 @@
+{
+  "model": "WebSSL",
+  "category": "retrieval-embedding",
+  "tasks": [
+    "image-features",
+    "similarity"
+  ],
+  "notebook": "WebSSL/webssl_huggingface_inference.ipynb",
+  "notebooks": [
+    "WebSSL/webssl_huggingface_inference.ipynb"
+  ],
+  "environment": "retrieval",
+  "environment_path": "envs/retrieval",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "sentencepiece",
+    "protobuf",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "os",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

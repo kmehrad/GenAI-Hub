@@ -1,3 +1,36 @@
 {
-    "tasks": ["contrastive", "image-features", "text-features"]
+  "model": "CLIP",
+  "category": "retrieval-embedding",
+  "tasks": [
+    "contrastive",
+    "image-features",
+    "text-features",
+    "retrieval"
+  ],
+  "notebook": "CLIP/clip_huggingface_inference.ipynb",
+  "notebooks": [
+    "CLIP/clip_huggingface_inference.ipynb"
+  ],
+  "environment": "retrieval",
+  "environment_path": "envs/retrieval",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "sentencepiece",
+    "protobuf",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "numpy",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
 }

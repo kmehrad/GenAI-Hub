@@ -1,0 +1,34 @@
+{
+  "model": "ControlNet",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "conditioned-generation",
+    "diffusion"
+  ],
+  "notebook": "ControlNet/controlnet_inference.ipynb",
+  "notebooks": [
+    "ControlNet/controlnet_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "annotator",
+    "cldm",
+    "config",
+    "cv2",
+    "einops",
+    "gradio",
+    "matplotlib",
+    "numpy",
+    "pytorch_lightning",
+    "random",
+    "share",
+    "sys",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

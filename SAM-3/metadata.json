@@ -1,0 +1,37 @@
+{
+  "model": "SAM-3",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "concept-prompted-segmentation"
+  ],
+  "notebook": "SAM-3/sam3_inference.ipynb",
+  "notebooks": [
+    "SAM-3/sam3_inference.ipynb"
+  ],
+  "environment": "sam3",
+  "environment_path": "envs/sam3",
+  "python": ">=3.12,<3.13",
+  "dependencies": [
+    "torch==2.7.0",
+    "torchvision",
+    "torchaudio",
+    "transformers",
+    "einops",
+    "decord",
+    "pycocotools",
+    "pillow",
+    "matplotlib",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "requests",
+    "sam3",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "Requires Python 3.12, a CUDA-oriented Torch stack, facebookresearch/sam3 editable install, and either local SAM-3 assets or latest Transformers support.",
+  "test_status": "not-run"
+}

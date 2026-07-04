@@ -1,0 +1,36 @@
+{
+  "model": "CLIPseg",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "text-prompted-segmentation"
+  ],
+  "notebook": "CLIPseg/clipseg_huggingface_inference.ipynb",
+  "notebooks": [
+    "CLIPseg/clipseg_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "numpy",
+    "os",
+    "torch",
+    "torchvision",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

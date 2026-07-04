@@ -1,0 +1,33 @@
+{
+  "model": "SD2",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "diffusion"
+  ],
+  "notebook": "SD2/sd_huggingface_inference.ipynb",
+  "notebooks": [
+    "SD2/sd_huggingface_inference.ipynb"
+  ],
+  "environment": "diffusers",
+  "environment_path": "envs/diffusers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "pillow",
+    "matplotlib",
+    "numpy"
+  ],
+  "imports": [
+    "diffusers",
+    "matplotlib",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

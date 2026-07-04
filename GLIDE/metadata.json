@@ -1,0 +1,24 @@
+{
+  "model": "GLIDE",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "diffusion"
+  ],
+  "notebook": "GLIDE/glide_inference.ipynb",
+  "notebooks": [
+    "GLIDE/glide_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "glide_text2im",
+    "matplotlib",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

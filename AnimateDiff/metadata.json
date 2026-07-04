@@ -1,0 +1,34 @@
+{
+  "model": "AnimateDiff",
+  "category": "generation",
+  "tasks": [
+    "video-generation",
+    "diffusion"
+  ],
+  "notebook": "AnimateDiff/animatediff_huggingface_inference.ipynb",
+  "notebooks": [
+    "AnimateDiff/animatediff_huggingface_inference.ipynb"
+  ],
+  "environment": "diffusers",
+  "environment_path": "envs/diffusers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
+    "pillow",
+    "matplotlib",
+    "numpy"
+  ],
+  "imports": [
+    "diffusers",
+    "huggingface_hub",
+    "safetensors",
+    "torch"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

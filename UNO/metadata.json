@@ -1,0 +1,30 @@
+{
+  "model": "UNO",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "in-context-generation"
+  ],
+  "notebook": "UNO/uno_huggingface_inference.ipynb",
+  "notebooks": [
+    "UNO/uno_huggingface_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "accelerate",
+    "dataclasses",
+    "itertools",
+    "matplotlib",
+    "os",
+    "sys",
+    "transformers",
+    "typing",
+    "uno"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

@@ -1,0 +1,29 @@
+{
+  "model": "Alfie",
+  "category": "generation",
+  "tasks": [
+    "image-generation",
+    "rgba-generation"
+  ],
+  "notebook": "Alfie/alfie_inference.ipynb",
+  "notebooks": [
+    "Alfie/alfie_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "accelerate",
+    "alfie",
+    "ast",
+    "json",
+    "matplotlib",
+    "settings",
+    "sys",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

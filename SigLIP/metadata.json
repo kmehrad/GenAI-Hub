@@ -1,0 +1,35 @@
+{
+  "model": "SigLIP",
+  "category": "retrieval-embedding",
+  "tasks": [
+    "contrastive",
+    "image-features",
+    "text-features",
+    "retrieval"
+  ],
+  "notebook": "SigLIP/siglip_huggingface_inference.ipynb",
+  "notebooks": [
+    "SigLIP/siglip_huggingface_inference.ipynb"
+  ],
+  "environment": "retrieval",
+  "environment_path": "envs/retrieval",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "sentencepiece",
+    "protobuf",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "requests",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

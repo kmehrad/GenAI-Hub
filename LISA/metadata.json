@@ -1,0 +1,31 @@
+{
+  "model": "LISA",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "reasoning-segmentation",
+    "VLM"
+  ],
+  "notebook": "LISA/lisa_inference.ipynb",
+  "notebooks": [
+    "LISA/lisa_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "deepspeed",
+    "matplotlib",
+    "model",
+    "numpy",
+    "os",
+    "sys",
+    "torch",
+    "transformers",
+    "utils"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

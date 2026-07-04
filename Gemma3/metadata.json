@@ -1,0 +1,35 @@
+{
+  "model": "Gemma3",
+  "category": "llm",
+  "tasks": [
+    "text-generation",
+    "VLM"
+  ],
+  "notebook": "Gemma3/gemma3_huggingface_inference.ipynb",
+  "notebooks": [
+    "Gemma3/gemma3_huggingface_inference.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "base64",
+    "io",
+    "matplotlib",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

@@ -1,0 +1,32 @@
+{
+  "model": "SegZero",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "reasoning-segmentation"
+  ],
+  "notebook": "SegZero/segzero_inference.ipynb",
+  "notebooks": [
+    "SegZero/segzero_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "cv2",
+    "json",
+    "matplotlib",
+    "numpy",
+    "os",
+    "pdb",
+    "qwen_vl_utils",
+    "re",
+    "sam2",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

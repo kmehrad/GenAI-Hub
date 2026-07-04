@@ -1,3 +1,31 @@
 {
-    "tasks": ["segmentation", "oopen-vocab segmentation"]
+  "model": "OVSeg",
+  "category": "segmentation-matting",
+  "tasks": [
+    "segmentation",
+    "open-vocabulary-segmentation"
+  ],
+  "notebook": "OVSeg/ovseg_inference.ipynb",
+  "notebooks": [
+    "OVSeg/ovseg_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "cv2",
+    "detectron2",
+    "matplotlib",
+    "numpy",
+    "open_vocab_seg",
+    "os",
+    "sys",
+    "time",
+    "torch",
+    "tqdm"
+  ],
+  "setup_notes": "Requires Detectron2 and the facebookresearch/ov-seg project setup.",
+  "test_status": "not-run"
 }

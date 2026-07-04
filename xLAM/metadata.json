@@ -1,0 +1,31 @@
+{
+  "model": "xLAM",
+  "category": "llm",
+  "tasks": [
+    "text-generation",
+    "agent-actions"
+  ],
+  "notebook": "xLAM/xlam_huggingface_inferemce.ipynb",
+  "notebooks": [
+    "xLAM/xlam_huggingface_inferemce.ipynb"
+  ],
+  "environment": "hf-transformers",
+  "environment_path": "envs/hf-transformers",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

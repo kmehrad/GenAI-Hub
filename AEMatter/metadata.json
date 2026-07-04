@@ -1,0 +1,29 @@
+{
+  "model": "AEMatter",
+  "category": "segmentation-matting",
+  "tasks": [
+    "matting",
+    "segmentation"
+  ],
+  "notebook": "AEMatter/aematter_inference.ipynb",
+  "notebooks": [
+    "AEMatter/aematter_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "cv2",
+    "matplotlib",
+    "model",
+    "numpy",
+    "os",
+    "sys",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

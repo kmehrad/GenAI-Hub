@@ -1,0 +1,32 @@
+{
+  "model": "EVA",
+  "category": "classification-representation",
+  "tasks": [
+    "image-classification",
+    "image-features"
+  ],
+  "notebook": "EVA/eva_timm_inference.ipynb",
+  "notebooks": [
+    "EVA/eva_timm_inference.ipynb"
+  ],
+  "environment": "timm",
+  "environment_path": "envs/timm",
+  "python": ">=3.10,<3.13",
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "timm",
+    "pillow",
+    "matplotlib",
+    "numpy",
+    "requests"
+  ],
+  "imports": [
+    "PIL",
+    "timm",
+    "torch",
+    "urllib"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

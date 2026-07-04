@@ -1,0 +1,25 @@
+{
+  "model": "EoMT",
+  "category": "classification-representation",
+  "tasks": [
+    "segmentation",
+    "image-features"
+  ],
+  "notebook": "EoMT/eomt_huggingface_inference.ipynb",
+  "notebooks": [
+    "EoMT/eomt_huggingface_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "PIL",
+    "matplotlib",
+    "os",
+    "torch",
+    "transformers"
+  ],
+  "setup_notes": "",
+  "test_status": "not-run"
+}

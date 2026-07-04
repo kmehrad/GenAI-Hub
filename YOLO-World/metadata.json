@@ -1,0 +1,28 @@
+{
+  "model": "YOLO-World",
+  "category": "detection",
+  "tasks": [
+    "detection",
+    "open-vocabulary-detection"
+  ],
+  "notebook": "YOLO-World/yolow_inference.ipynb",
+  "notebooks": [
+    "YOLO-World/yolow_inference.ipynb"
+  ],
+  "environment": "model-specific",
+  "environment_path": null,
+  "python": "see setup_notes",
+  "dependencies": [],
+  "imports": [
+    "argparse",
+    "cv2",
+    "mmdet",
+    "mmengine",
+    "os",
+    "sys",
+    "torch",
+    "typing"
+  ],
+  "setup_notes": "Requires MMDetection/MMEngine stack and model checkpoint.",
+  "test_status": "not-run"
+}
