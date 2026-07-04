@@ -12,7 +12,7 @@
     "CLIP/clip_huggingface_inference.ipynb"
   ],
   "environment": "retrieval",
-  "environment_path": "envs/retrieval",
+  "environment_path": "CLIP",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
@@ -32,5 +32,5 @@
     "transformers"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
