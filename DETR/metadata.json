@@ -9,7 +9,7 @@
     "DETR/detr_huggingface_inference.ipynb"
   ],
   "environment": "hf-transformers",
-  "environment_path": "envs/hf-transformers",
+  "environment_path": "DETR",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
@@ -19,7 +19,9 @@
     "pillow",
     "matplotlib",
     "numpy",
-    "requests"
+    "requests",
+    "timm",
+    "supervision"
   ],
   "imports": [
     "PIL",
@@ -31,5 +33,5 @@
     "warnings"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }

@@ -10,7 +10,7 @@
     "AuraSR/aurasr_inference.ipynb"
   ],
   "environment": "diffusers",
-  "environment_path": "envs/diffusers",
+  "environment_path": "AuraSR",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
@@ -21,7 +21,8 @@
     "safetensors",
     "pillow",
     "matplotlib",
-    "numpy"
+    "numpy",
+    "aura-sr"
   ],
   "imports": [
     "PIL",
@@ -29,5 +30,5 @@
     "matplotlib"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }

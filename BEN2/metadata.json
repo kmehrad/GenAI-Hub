@@ -11,7 +11,7 @@
     "BEN2/ben2_huggingface_inference.ipynb"
   ],
   "environment": "hf-transformers",
-  "environment_path": "envs/hf-transformers",
+  "environment_path": "BEN2",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
@@ -21,7 +21,9 @@
     "pillow",
     "matplotlib",
     "numpy",
-    "requests"
+    "opencv-python",
+    "requests",
+    "ben2"
   ],
   "imports": [
     "PIL",
@@ -30,5 +32,5 @@
     "torch"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
