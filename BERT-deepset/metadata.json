@@ -9,7 +9,7 @@
     "BERT-deepset/bert-deepset_haystack_inference.ipynb"
   ],
   "environment": "haystack",
-  "environment_path": "envs/haystack",
+  "environment_path": "BERT-deepset",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "haystack-ai",
@@ -19,5 +19,5 @@
     "haystack"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
