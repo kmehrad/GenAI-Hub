@@ -10,13 +10,19 @@
     "Gemma3/gemma3_huggingface_inference.ipynb"
   ],
   "environment": "hf-transformers",
-  "environment_path": "envs/hf-transformers",
+  "environment_path": "Gemma3",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
     "torchvision",
     "transformers",
     "accelerate",
+    "huggingface-hub",
+    "sentencepiece",
+    "protobuf",
+    "safetensors",
+    "ipykernel",
+    "jupyter",
     "pillow",
     "matplotlib",
     "numpy",
@@ -30,6 +36,6 @@
     "torch",
     "transformers"
   ],
-  "setup_notes": "",
-  "test_status": "not-run"
+  "setup_notes": "Requires accepted Hugging Face license terms and credentials for google/gemma-3-4b-it.",
+  "test_status": "passed"
 }
