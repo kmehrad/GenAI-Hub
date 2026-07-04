@@ -345,13 +345,7 @@ uv run python -m ipykernel install --user --name genai-hf-transformers
 
 ### Testing Status
 
-Latest report: 74 notebook entries; 18 passed, 26 failed, 30 blocked.
-
-| Status | Models |
-| --- | --- |
-| passed | BART, AnimateDiff, BLIP, CLIPseg, DPT, DepthAnything, EVA, EssentialAI, FaceParsing, GCL, LLaVA, LLaVA-NeXT, LLaVA-OneVision, LeViT, PromptDepthAnything, SegFormer, SigLIP, xLAM |
-| failed | AuraSR, BEN2, BERT-deepset, BiRefNet, CLIP, DETR, FLAVA, FLUX, Gemma3, GroundingDINO, ImageGPT, Janus, Mask2Former, OWL-ViT (owlvit_huggingface_inference.ipynb), OWL-ViT (owlvit_inference-2.ipynb), OWL-v2, OneFormer, PoolFormer, SA2VA, SAM, SAM-3, SD2, SmolVLM, UperNet, WebSSL, YOLOS4Fashion |
-| blocked | AEMatter, Alfie, AnomalyCLIP, CAT-Seg, CogVLM, ControlNet, DINOv3, DepthPro, DiffDIS, EoMT, Ferret, FineGrain, GLIDE, GLIP, InternVL, LISA, LLaMA2, Leffa, OV-DINO, OVSeg, QLIP, SAM-2, SAM-HQ, SAMRefiner, SAN, SegZero, UNO, VGGT, VisionReasoner, YOLO-World |
+No notebook execution report has been generated yet.
 
 Notebook execution results are written to `reports/notebook_uv_execution.json` by `tools/execute_notebooks.py`. Source notebook outputs are preserved unless they are explicitly inspected and proven safe to remove.
 

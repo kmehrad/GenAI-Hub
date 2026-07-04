@@ -180,6 +180,8 @@ cython_debug/
 .pypirc
 
 # Local model caches, checkpoints, and generated notebook execution copies
+reports/*.json
+reports/*.md
 reports/executed/
 *.ckpt
 *.pth
