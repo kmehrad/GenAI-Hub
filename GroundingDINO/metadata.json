@@ -11,13 +11,17 @@
     "GroundingDINO/groundingdino_huggingface_inference.ipynb"
   ],
   "environment": "hf-transformers",
-  "environment_path": "envs/hf-transformers",
+  "environment_path": "GroundingDINO",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
     "torchvision",
     "transformers",
     "accelerate",
+    "supervision",
+    "safetensors",
+    "ipykernel",
+    "jupyter",
     "pillow",
     "matplotlib",
     "numpy",
@@ -32,5 +36,5 @@
     "transformers"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
