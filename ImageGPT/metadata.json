@@ -10,18 +10,21 @@
     "ImageGPT/imagegpt_huggingface_inference.ipynb"
   ],
   "environment": "diffusers",
-  "environment_path": "envs/diffusers",
+  "environment_path": "ImageGPT",
   "python": ">=3.10,<3.13",
   "dependencies": [
     "torch",
     "torchvision",
-    "diffusers",
     "transformers",
     "accelerate",
+    "huggingface-hub",
     "safetensors",
+    "ipykernel",
+    "jupyter",
     "pillow",
     "matplotlib",
-    "numpy"
+    "numpy",
+    "requests"
   ],
   "imports": [
     "huggingface_hub",
@@ -31,5 +34,5 @@
     "transformers"
   ],
   "setup_notes": "",
-  "test_status": "not-run"
+  "test_status": "passed"
 }
